@@ -162,7 +162,7 @@ span {
     top: 0;
     right: 0;
     height: 100vh;
-    width: 250px;
+    width: 350px;
     z-index: 999;
     background-color: rgba(0, 0, 0, 0.273);
     backdrop-filter: blur(10px);
@@ -174,6 +174,7 @@ span {
     list-style-type: none;
     gap: 30px;
     padding: 20px 20px;
+    font-size: 2.5rem;
 
 }
 
@@ -268,9 +269,7 @@ border: 1.5px solid transparent;
         color: black;
     }
 
-    .padding-section-large {
-        display: none;
-    }
+
     .padding-section-medium {
         padding: 400px 1rem;
         height: 350px;
@@ -485,7 +484,7 @@ font-size: 1.2rem;
 }
 
 .services-container .services-box {
-    flex: 1 1 10rem;
+    flex: 1 1 20rem;
     background: var(--second-bg-color);
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
@@ -756,6 +755,7 @@ font-family:helvetica;
 
 .contact h2 {
     margin-bottom: 3rem;
+    text-align: center;
 }
 
 .contact form {
@@ -779,6 +779,7 @@ font-family:helvetica;
     color: var(--text-color);
     background: var(--second-bg-color);
     border-radius: .8rem;
+    border: 2px solid var(--clr-neon);
     margin: .7rem 0;
 }
 
@@ -790,28 +791,6 @@ font-family:helvetica;
     resize: none;
 }
 
-.contact form .btn {
-    margin-top: 2rem;
-    cursor: pointer;
-    color: var(--clr-neon);
-    font-family: "Balsamiq sans";
-    overflow: hidden;
-    font-size: var(--font-size);
-    border: var(--clr-neon) 0.125em solid;
-    border-radius: 0.25em;
-    padding: 0.25em 1em;
-    text-shadow: 
-    0 0 .20rem #fff7,
-    0 0 .30em var(--clr-neon);
-    box-shadow: 
-    inset 0 0 .5em var(--clr-neon),
-          0 0 .5em var(--clr-neon);
-
-}
-
-.herosection {
-    display: none;
-    }
 
 .myskills h1 {
     font-size: 36px;
@@ -844,7 +823,6 @@ font-family:helvetica;
     }
     .services {
         padding-bottom: 7rem;
-        grid-template-columns: 1fr;
     }
     .portfolio {
         padding-bottom: 7rem;
